@@ -9,14 +9,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-              {/* <Route path="/" element={<LoginUser /> } />
-         <Route path="/main" element={<GroceriesApp /> } />  
-         <PrivateRoute path="/main" element={<GroceriesApp />} />
+           <Route path="/" element={<LoginUser /> } />
+         <Route path="/main" element={<GroceriesApp /> } /> 
          <Route path="/create-user" element={<CreateUser /> } />
-      */}
-          <Route path="/login" element={<LoginUser />} />
-          <PrivateRoute path="/main" element={<GroceriesApp />} />
-          <Route path="/create-user" element={<CreateUser />} />
+    
+       
 
         </Routes>
       </BrowserRouter>  
