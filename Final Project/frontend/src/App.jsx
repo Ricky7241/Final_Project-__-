@@ -3,7 +3,7 @@ import CreateUser from "./pages/CreateUser";
 import GroceriesApp from "./pages/GroceriesApp";
 import LoginUser from "./pages/LoginUser";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import PrivateRoute from "./pages/PrivateRoute";
+
 function App() {
   return (
     <>
